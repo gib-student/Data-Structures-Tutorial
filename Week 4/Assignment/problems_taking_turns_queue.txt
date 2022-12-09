@@ -1,0 +1,7 @@
+Test case 1:
+* After a person is selected, they are placed at the BEGINNING
+of the line instead of the back.
+**DONE**
+
+Test case 2:
+* 

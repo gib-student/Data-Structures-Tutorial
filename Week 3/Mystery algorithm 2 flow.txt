@@ -1,0 +1,21 @@
+Flow of mystery 2 algorithm
+
+1. stack is defined as empty list
+2. Input is split into a list of words. Loop through words
+	3. Series of checks occur looking for math operators +, -, * or /
+		1. Check if stack is too small. Invalid Case 1 and end
+		2. op1 and op2 are set to last 2 values in stack, respectively
+		3. if + op then res = op1 + op2
+		3. if - op then res = op1 - op2
+		4. if * op then res = op1 * op2
+		5. if op2 is 0, Invalid Case 2 and return none
+		6. else / op is assumed and res = op1 / op2
+		7. res is appended to end of stack
+	4. Check if item selected is a float.
+		* Append item to the end of stack as a float
+	5. Check if item is nothing.
+		* pass if true
+	6. Else Invalid case 3. Return none
+3. Check if stack has length of 1.
+	* If not, Invalid case 4. Return none
+4. Return sole item in stack.

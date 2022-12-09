@@ -1,0 +1,2 @@
+39,Bachelors,<=50K
+50,Masters,<=50K

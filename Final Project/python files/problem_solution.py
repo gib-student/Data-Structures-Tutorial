@@ -14,14 +14,15 @@ class Dict_Query:
         self._queue= []
     
     def enqueue(self, key, value):
-        self._queue.append(key, value)
+        self._queue.append(key)
+        self._queue.append(value)
     
     def dequeue(self):
         key = self._queue[0]
         value = self._queue[1]
         del self._queue[0]
-        del self._queue[1]
-        return (value, key)
+        del self._queue[0]
+        return (key, value)
     
     def convert_to_dict(self):
         d = {}
