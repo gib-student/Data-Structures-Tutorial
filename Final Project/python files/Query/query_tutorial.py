@@ -8,7 +8,6 @@
     The first item in the list will be in the 0th place while the last
     will be at the max index.'''
 class order_queue:
-
     '''A queue in python is a list'''
     def __init__(self):
         self.queue = []
