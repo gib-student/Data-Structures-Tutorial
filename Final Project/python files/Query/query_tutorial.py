@@ -11,7 +11,7 @@ class order_queue:
     '''A queue in python is a list'''
     def __init__(self):
         self.queue = []
-
+    
     def enqueue(self, order):
         # Place the order at the end of the list.
         self.queue.append(order)
